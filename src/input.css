@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --coffee:#d88b35;
+}
+html{
+  scroll-behavior: smooth
+}
+.container2 {
+  @apply w-11/12 mx-auto;
+}
+.gallery-container {
+  @apply w-9/12 mx-auto;
+}
+/* navbar coding start */
+
+nav{
+  /* box-shadow: 1px 0px 15px gray; */
+  padding: 5px;
+}
+#nav-ul li{
+  border: 1px solid var(--coffee);
+  background-color: var(--coffee);
+  border-radius: 20px;
+  padding: 5px 10px;
+
+}
+/* animation */
+#nav-ul {
+  animation-name: moveInRight;
+  animation-duration: 4s;
+}
+
+#logo-div {
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0; /* gayab hojaegi */
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* creating hover effect  */
+#nav-ul li:hover{
+    background-color: transparent;
+    color: var(--coffee);
+}
+
+/* navbar coding end */
+
+/* div in four-layout section  */
+.four-layout > div{
+  border-top: 10px solid black;
+}
+#video-about{
+  margin: 0;
+  width: 70%;
+  /* height: 70%; */
+}
+@media (max-width: 640px) { 
+  #video-about{
+    width: 100%;
+  }
+}
+@media (max-width: 768px) { 
+  #video-about{
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) { 
+  #video-about{
+    width: 100%;
+  }
+}
+.column1,.column2,.column3 > div{
+  cursor: pointer;
+}
+/* creating zoom effect on cards images and gallery images */
+.zoom-div{
+  overflow: hidden;
+}
+.zoom-effected-image{
+  transition: transform 0.4s;
+}
+.zoom-effected-image:hover{
+ transform: scale(1.1);
+}
+/* animation on footers icon */
+.footer-icons-div > div{
+  transition: transform  .4s;
+}
+.footer-icons-div > div:hover{
+  transform: translateY(-10px);
+}

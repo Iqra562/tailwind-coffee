@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/dist/output.css" />
+  <title>Green Design</title>
+</head>
+
+<body class="bg-black">
+  <div class="container-fluid">
+
+    <nav class=" dark:bg-black p-3 fixed w-[100%] z-10">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto " id="logo-div">
+        <a href="#main-section" class="flex items-center cursor-pointer">
+          <img src="/dist/assets/images/coffee-logo.webp" class="h-14 "  alt="coffeeshop Logo" />
+          <span class="self-end font-normal text-4xl italic whitespace-nowrap  text-coffee">CoffeeBreak</span>
+        </a>
+        <button data-collapse-toggle="t-button" type="button"
+          class="inline-flex items-center   text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="t-button">
+          <ul id="nav-ul"
+            class="font-medium flex flex-col  md:p-0  border  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:bg-black md:dark:bg-black dark:border-gray-700">
+            <li>
+              <a href="#main-section"
+                class="block  text-white  rounded md:bg-transparent md:p-0 dark:text-white ">Home</a>
+            </li>
+            <li id="c">
+              <a href="#about-section"
+                class="block   rounded   md:border-0  md:p-0 dark:text-white  dark:hover:bg-gray-700  md:dark:hover:bg-transparent">About</a>
+            </li>
+            <li>
+              <a href="#gallery-section"
+                class="block rounded  md:hover:bg-transparent md:border-0 md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Gallery</a>
+            </li>
+            <li>
+              <a href="#coffee-menu"
+                class="block  rounded  md:border-0  md:p-0 dark:text-white  dark:hover:text-white ">Menu</a>
+            </li>
+            <li>
+              <a href="#details-section"
+                class="block   md:border-0  dark:text-white  dark:hover:text-white ">Details</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ///////////////////////// -->
+    <!-- MAIN SECTION START  -->
+    <!-- ////////////////////////// -->
+    <section id="main-section">
+
+      <div>
+
+
+        <div class="container2 mx-auto">
+
+
+          <div
+            class="bg-[url('/dist/assets/images/mainimg.jpeg')] h-[45rem] bg-fixed bg-cover bg-top  mx-auto flex justify-center items-center">
+            <div>
+
+              <h1 class="font-extrabold text-8xl">Coffee Break</h1>
+              <h6 class="font-medium italic text-right mt-4 text-xl">It's coffee o'clock</h6>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    <!-- ///////////////////////// -->
+    <!-- MAIN SECTION END  -->
+    <!-- ////////////////////////// -->
+
+    <!-- ////////////////////////// -->
+    <!-- four image section layout START  -->
+    <!-- ////////////////////////// -->
+    <section>
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 container2 mx-auto gap-2 container2 four-layout">
+        <div
+          class="bg-[url('/dist/assets/images/layoutimg1.webp')] bg-white bg-cover bg-top md:h-72  lg:h-72  grid grid-cols-1 place-content-end">
+          <div class="bg-black opacity-60 h-24 flex justify-center items-center">
+            <h1 class="text-white text-2xl">The Roasting Process</h1>
+          </div>
+        </div>
+        <div
+          class="bg-[url('/dist/assets/images/layoutimg2.webp')] bg-white bg-cover bg-top md:h-72 lg:h-72 grid grid-cols-1 place-content-end">
+          <div class="bg-black opacity-60 h-24 flex justify-center items-center">
+            <h1 class="text-white text-2xl">Our Brands</h1>
+          </div>
+        </div>
+        <div
+          class="bg-[url('/dist/assets/images/layoutimg3.avif')] bg-white bg-cover bg-top md:h-72 lg:h-72 grid grid-cols-1 place-content-end">
+          <div class="bg-black opacity-60 h-24 flex justify-center items-center">
+            <h1 class="text-white text-2xl">Marketing</h1>
+          </div>
+        </div>
+        <div
+          class="bg-[url('/dist/assets/images/layoutimg4.jpg')] bg-white bg-cover bg-top  md:h-72 lg:h-72 grid grid-cols-1 place-content-end">
+          <div class="bg-black opacity-60 h-24 flex justify-center items-center">
+            <h1 class="text-white text-2xl">Our Shop</h1>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- ////////////////////////// -->
+    <!-- four image section layout END  -->
+    <!-- ////////////////////////// -->
+
+    <!-- ////////////////////////// -->
+    <!-- CARDS SECTION START  -->
+    <!-- ////////////////////////// -->
+    <section id="coffee-menu">
+      <div class="container2  h-auto mt-28  ">
+        <div class=" text-center mb-10">
+          <p class="text-coffee leading-relaxed mb-5">CHOOSE BEST COFFEE</p>
+          <h1 class="text-4xl font-semibold font-serif text-white">Coffee Chart</h1>
+        </div>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4  bg-black h-auto gap-4">
+          <!-- //////////////// -->
+          <!-- 1 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image zoom-div">
+                <img src="/dist/assets/images/cards-images/cappuccino.jpg" class="zoom-effected-image h-[13rem] cursor-pointer" width="100%" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl">Cappuccino</h1>
+                <p class="text-white text-lg leading-relaxed text-center"> A cappuccino is an espresso-based coffee
+                  drink. </p>
+                <p class="text-coffee font-bold">$1122</p>
+              </div>
+              <div class="add-to-cart cursor-pointer flex justify-center bg-coffee rounded-b-lg p-2">
+                <img src="/dist/assets/images/shopping-cart.svg" class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- //////////////// -->
+          <!-- 2 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image  zoom-div">
+                <img src="/dist/assets/images/cards-images/americano.jpg" class="zoom-effected-image h-[13rem] cursor-pointer" width="100%" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl">Arabica</h1>
+                <p class="text-white text-lg leading-relaxed text-center"> Arabic coffee is species of flowering plant
+                  in coffee. </p>
+                <p class="text-coffee font-bold">$8221</p>
+              </div>
+              <div class="add-to-cart flex justify-center bg-coffee rounded-b-lg p-2 cursor-pointer">
+                <img src="/dist/assets/images/shopping-cart.svg " class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- //////////////// -->
+          <!-- 3 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image  zoom-div">
+                <img src="/dist/assets/images/cards-images/icedcoffee.jpg " class="zoom-effected-image h-[13rem] w-[100%] cursor-pointer" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl">Iced Coffee</h1>
+                <p class="text-white text-lg leading-relaxed text-center"> A cold version of your favourite coffee with
+                  ice added. </p>
+                <p class="text-coffee font-bold">$9322</p>
+              </div>
+              <div class="add-to-cart flex justify-center bg-coffee rounded-b-lg p-2 cursor-pointer">
+                <img src="/dist/assets/images/shopping-cart.svg" class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- //////////////// -->
+          <!-- 4 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image  zoom-div">
+                <img src="/dist/assets/images/cards-images/macchiato.jpg" class="zoom-effected-image h-[13rem] w-[100%] cursor-pointer" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl"> Macchiato</h1>
+                <p class="text-white text-lg leading-relaxed text-center"> Macchiato is shot of espresso with touch of
+                  steamed milk. </p>
+                <p class="text-coffee font-bold">$7422</p>
+              </div>
+              <div class="add-to-cart flex justify-center bg-coffee rounded-b-lg p-2 cursor-pointer">
+                <img src="/dist/assets/images/shopping-cart.svg" class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+          <!-- //////////////// -->
+          <!-- 5 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image zoom-div">
+                <img src="/dist/assets/images/cards-images/Chocolate Coffe.jpg" class="zoom-effected-image h-[13rem] cursor-pointer" width="100%" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl">Chocolate Coffee</h1>
+                <p class="text-white text-lg leading-relaxed text-center">Mocha drink consisting of strongly-brewed coffee. </p>
+                <p class="text-coffee font-bold">$8722</p>
+              </div>
+              <div class="add-to-cart cursor-pointer flex justify-center bg-coffee rounded-b-lg p-2">
+                <img src="/dist/assets/images/shopping-cart.svg" class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- //////////////// -->
+          <!-- 6 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image  zoom-div">
+                <img src="/dist/assets/images/cards-images/Cocoa Coffee.jpg" class="zoom-effected-image h-[13rem] cursor-pointer" width="100%" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl">Cocoa</h1>
+                <p class="text-white text-lg leading-relaxed text-center"> The cocoa  flavor to the robust cold  coffee. </p>
+                <p class="text-coffee font-bold">$1032</p>
+              </div>
+              <div class="add-to-cart flex justify-center bg-coffee rounded-b-lg p-2 cursor-pointer">
+                <img src="/dist/assets/images/shopping-cart.svg " class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- //////////////// -->
+          <!-- 7 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image  zoom-div">
+                <img src="/dist/assets/images/cards-images/hot-nutella.jpg" class="zoom-effected-image h-[13rem] w-[100%] cursor-pointer" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl">Hot Nutella</h1>
+                <p class="text-white text-lg leading-relaxed text-center">Nutella hot  is luxuriously richand perfectly nutty.</p>
+                <p class="text-coffee font-bold">$8822</p>
+              </div>
+              <div class="add-to-cart flex justify-center bg-coffee rounded-b-lg p-2 cursor-pointer">
+                <img src="/dist/assets/images/shopping-cart.svg" class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- //////////////// -->
+          <!-- 8 card layout start -->
+          <!-- //////////////// -->
+          <div class="card-outer-layer bg-black p-5 h-auto">
+            <div class="card-inner-layer bg-black shadow-md shadow-slate-800  p-5 rounded-lg h-auto">
+              <div class="card-image  zoom-div">
+                <img src="/dist/assets/images/cards-images/Caramel Cofee.jpg" class="zoom-effected-image h-[13rem] w-[100%] cursor-pointer" alt="">
+              </div>
+              <div class="card-body flex flex-col items-center p-2">
+                <h1 class="text-gray-300 font-medium text-xl">Caramel</h1>
+                <p class="text-white text-lg leading-relaxed text-center"> The coffee is typically brewed with a French press. </p>
+                <p class="text-coffee font-bold">$9422</p>
+              </div>
+              <div class="add-to-cart flex justify-center bg-coffee rounded-b-lg p-2 cursor-pointer">
+                <img src="/dist/assets/images/shopping-cart.svg" class="" alt=""> <span
+                  class="text-black font-semibold">Add to Cart</span>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////// -->
+    <!-- CARDS SECTION END  -->
+    <!-- ////////////////////////// -->
+    <!-- ////////////////////////// -->
+    <!--GALLERY SECTION START  -->
+    <!-- ////////////////////////// -->
+    <section id="gallery-section">
+      <div class="gallery-outer-layer container2 h-auto mt-20  mb-20 bg-cover bg-fixed ">
+        <div class="gallery-section-heading text-center mb-10">
+          <h1 class="text-white text-3xl">Popular Coffee</h1>
+        </div>
+        <div class="gallery-inner-layer grid md:grid-cols-3 lg:grid-cols-3  gap-8 gallery-container  h-auto">
+          <div class="column1 ">
+            <div class="zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg1.jpg" class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg14.jpeg" class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg2.webp" class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg12.jpg"  class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg13.webp"  class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg18.webp" class="zoom-effected-image"  alt="">
+            </div>
+          </div>
+         
+          <div class="column2">
+            <div class=" zoom-div zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg16.webp" class="zoom-effected-image"  alt="">
+            </div>
+            <div class="mt-6 zoom-div zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg19.jpg" class="zoom-effected-image"  alt="">
+            </div>
+
+            <div class="mt-6 zoom-div zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg20.jpg"  class="zoom-effected-image" alt="">
+
+            </div>
+            <div class="mt-6 zoom-div zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg3.webp"  class="zoom-effected-image" alt="">
+            </div>
+
+            <div class="mt-6 zoom-div zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg17.jpeg" class="zoom-effected-image"   alt="">
+            </div>
+            <div class="mt-6 zoom-div zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg10.jpg"  class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg11.jpg"  class="zoom-effected-image" alt="">
+            </div>
+
+          </div>
+          <div class="column3   ">
+            <div class=" zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg4.jpg"  class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg5.jpg" class="zoom-effected-image"  alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg6.webp"  class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg7.jpg" class="zoom-effected-image"  alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg8.png"  class="zoom-effected-image" alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg9.jpg" class="zoom-effected-image"  alt="">
+            </div>
+            <div class="mt-6 zoom-div">
+              <img src="/dist/assets/images/gallery-images/galleryimg15.webp" class="zoom-effected-image"  alt="">
+            </div>
+
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////// -->
+    <!--GALLERY SECTION END  -->
+    <!-- ////////////////////////// -->
+
+    <!-- ////////////////////////// -->
+    <!--ABOUT SECTION START-->
+    <!-- ////////////////////////// -->
+    <section id="about-section">
+      <div class="container2 mt-20">
+
+
+
+        <div class="bg-coffee p-4 ">
+          <h1 class="text-black text-center text-2xl font-bold font-sans uppercase">Why Choose Us</h1>
+        </div>
+
+        <div class="container2 xl:flex mt-10 ">
+
+
+          <!-- video div start  -->
+          <div id="video-about" class=""><video loop autoplay muted>
+              <source src="/dist/assets/images/coffee-video.mp4" type="video/mp4"><video>
+          </div>
+          <!-- video div end  -->
+
+
+          <div class=" basis-[50%] pl-10">
+            <h1 class="text-white text-4xl font-bold leading-10">New Coffee Founded For Extraordinary Test</h1>
+            <p class="text-white text-lg mt-10">Coffee also contains antioxidants and other active substances that may
+              reduce internal inflammation and protect against disease, say nutrition experts from Johns Hopkins
+              University School of Medicine.</p>
+            <div class="sm:flex-row md:flex lg:flex mt-5 ">
+              <img src="/dist/assets/images/aboutimg.png" width="20%" alt="">
+              <div class=" flex justify-center items-center ">
+                <div>
+                  <h1 class="text-white text-2xl font-semibold">100% Natural</h1>
+                  <p class="text-zinc-500 font-medium text-base font-sans mt-4">The Very Best Organic Coffee ; Stumptown
+                    Coffee Roasters Holler Mountain Whole Bean Coffee </p>
+                </div>
+
+
+              </div>
+
+            </div>
+            <div class="mt-7">
+
+              <button class="bg-coffee p-2 rounded-md font-bold w-[50%]">Explore More..</button>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+      </div>
+    </section>
+    <!-- ////////////////////////// -->
+    <!--ABOUT SECTION END-->
+    <!-- ////////////////////////// -->
+    <!-- ////////////////////////// -->
+    <!--FOOTER SECTION START-->
+    <!-- ////////////////////////// -->
+
+    <section class="mb-20" id="details-section">
+
+      <div
+        class="footer-outer-layer bg-[url('/dist/assets/images/backgorundimage.jpg')] grid bg-fixed h-auto mt-32  bg-cover   lg:px-28 py-5 ">
+        <div>
+        <div class="  grid  sm:grid-cols-1 place-ite lg:grid-cols-2 xl:grid-cols-4 ">
+          <div class="side1">
+            <div class="side1">
+              <div class="flex justify-center items-center">
+                <div class="w-[35%]">
+                  <img src="/dist/assets/images/coffee-logo.webp" alt="">
+
+                </div>
+                <div class=" font-normal text-4xl italic whitespace-nowrap  text-coffee ">
+                  <h1>CoffeeBreak</h1>
+                </div>
+              </div>
+              <div class="footer-icons-div p-5 flex justify-between mt-5">
+                <div class="bg-black rounded-full p-5 cursor-pointer"><img src="/dist/assets/images/facebook.svg"
+                    alt="">
+                </div>
+                <div class="bg-black rounded-full p-5 cursor-pointer"><img src="/dist/assets/images/instagram.svg"
+                    alt="">
+                </div>
+                <div class="bg-black rounded-full p-5 cursor-pointer "><img src="/dist/assets/images/youtube.svg"
+                    alt="">
+                </div>
+                <div class="bg-black rounded-full p-5 cursor-pointer "><img src="/dist/assets/images/twitter.svg"
+                    alt="">
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="side2 flex  ">
+            <div class="contact-info flex ">
+              <div class="">
+                <div class="mb-10  lg:">
+                  <h1 class="text-white text-3xl">Contact Info:</h1>
+                </div>
+                <div class="flex mt-5">
+                  <div><img src="/dist/assets/images/map-pin.svg" alt=""></div>
+                  <div class="ml-10">
+                    <p class="text-white text-lg font-medium">Karachi,Pakistan</p>
+                  </div>
+                </div>
+                <div class="flex justify-center mt-5">
+                  <div><img src="/dist/assets/images/mail.svg" alt=""></div>
+                  <div class="ml-10">
+                    <p class="text-white text-lg font-medium">coffeeBreak@gmail.com</p>
+                  </div>
+                </div>
+
+                <div class="flex  mt-5">
+                  <div><img src="/dist/assets/images/phone.svg" alt=""></div>
+                  <div class="ml-10">
+                    <p class="text-white text-lg font-medium "> +92 32826337329</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side3 h-auto flex ">
+            <div class="flex ">
+              <div class="Useful-link-section ">
+                <div>
+                  <h1 class="text-white text-3xl mb-10">Useful Links</h1>
+                </div>
+                <div class="text-white leading-10">
+                  <p><a href="#main-section">Home Page</a></p>
+                  <p><a href="#about-section">About Us</a></p>
+                  <p><a href="#gallery-section">Gallery</a></p>
+                  <p><a href="#coffee-menu">Coffee Chart</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side4  h-auto">
+            <div class="subscription-section  ">
+              <div>
+                <h1 class="text-white text-3xl">Subscription:</h1>
+              </div>
+              <div class="mt-5">
+                <div>
+                  <p class="text-white leading-10">Subscribe our news letter to know more and get more notifications.
+                  </p>
+                </div>
+                <div class="bg-black w-[100%] flex rounded-full  p-2">
+                  <div class="bg-coffee p-2 px-6 rounded-full text-base font-bold text-black">Subscribe</div>
+                  <div class="text-white self-center font-bold p-1">
+                    <h1>Enter your email...</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>z
+    </section>
+    <!-- ////////////////////////// -->
+    <!--FOOTER SECTION SEND-->
+    <!-- ////////////////////////// -->
+  
+
+  </div>
+
+</body>
+
+</html>
